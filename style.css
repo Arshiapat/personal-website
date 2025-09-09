@@ -10,9 +10,11 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   background: linear-gradient(to bottom, #1811d2, #40170F);
-  color: #2d2d2d;
+  color: #eeece1;
   text-align: center;
   padding: 40px;
+  max-width: 900px;
+  margin: auto;
 }
 
 /* Profile image */
@@ -36,7 +38,12 @@ h3 {
 
 /* Social icons */
 a img {
-  margin: 0 10px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0px;
+  vertical-align: middle;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -66,9 +73,18 @@ h3 + p {
   font-style: italic;
   color: #eeece1;
 }
-
-/* Page container for nicer layout */
-body {
-  max-width: 900px;
-  margin: auto;
+.attribution {
+  font-size: 0.7rem;      /* makes all text inside smaller */
+  color: #eeece1;
 }
+
+.attribution a {
+  color: #eeece1;          /* keeps links same color */
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #f1c40f;
+}
+
+

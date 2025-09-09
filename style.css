@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #1811d2, #40170F);
+  color: #2d2d2d;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Profile image */
+img[alt="My memoji"] {
+  border-radius: 50%;
+  border: 4px solid #100269;
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  color: #eeece1;
+}
+
+h3 {
+  font-weight: 400;
+  color: #eeece1;
+  margin-bottom: 20px;
+}
+
+/* Social icons */
+a img {
+  margin: 0 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+a img:hover {
+  transform: scale(1.2);
+}
+
+/* Section styling */
+h2 {
+  margin-top: 40px;
+  color: #eeece1;
+  border-bottom: 2px solid #eeece1;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p {
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: #eeece1;
+}
+
+/* Project section */
+h3 + p {
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #eeece1;
+}
+
+/* Page container for nicer layout */
+body {
+  max-width: 900px;
+  margin: auto;
+}
